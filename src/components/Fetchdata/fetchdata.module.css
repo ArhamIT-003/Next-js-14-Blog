@@ -1,0 +1,7 @@
+.blogPosts {
+    display: flex;
+    gap: 30px;
+    height: fit-content;
+    align-items: center;
+    margin-bottom: 30px;
+  }

@@ -1,0 +1,43 @@
+.main {
+  display: flex;
+  gap: 100px;
+}
+
+.textContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.textContainer h1 {
+  font-size: 72px;
+  text-transform: capitalize;
+  width: 15%;
+}
+
+.textContainer p{
+    font-size: 18px;
+}
+
+.btnContainer {
+  display: flex;
+  gap: 30px;
+}
+
+.btnContainer button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: var(--bgSoft);
+  color: var(--textSoft);
+  text-transform: capitalize;
+}
+
+.imgContainer {
+  flex: 1;
+  position: relative;
+}

@@ -1,0 +1,22 @@
+.blog{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.title{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.blogBox{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+/* @media (max-width: 425px){
+    
+} */

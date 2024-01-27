@@ -1,0 +1,12 @@
+.footer{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 500px) {
+    .footer div{
+        font-size: 0.75rem;
+    }
+}
