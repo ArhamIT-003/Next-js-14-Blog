@@ -1,6 +1,5 @@
 import Image from "next/image";
 import styles from "./page.module.css"; // importing the styles module
-import heroGif from "../../public/hero.gif";
 import { MotionBtn, MotionDiv } from "@/components/MotionDiv/MotionDiv";
 
 export default function Home() {
@@ -48,7 +47,7 @@ export default function Home() {
             }}
           >
             Contact
-          </MotionBtn>{" "}
+          </MotionBtn>
           {/* a button for contacting the agency */}
         </div>
       </MotionDiv>
@@ -62,7 +61,7 @@ export default function Home() {
         }}
         transition={{ ease: "easeInOut" }}
       >
-        <Image src={heroGif} alt="hero.gif" fill className={styles.img} />
+        <Image src={"/hero.gif"} alt="hero.gif" fill className={styles.img} />
       </MotionDiv>
     </main>
   );
