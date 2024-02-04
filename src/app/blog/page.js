@@ -18,9 +18,6 @@ const Blog = () => {
   };
   return (
     <div className={styles.blog}>
-      <div>
-        <h2 className={styles.title}>Blogs</h2>
-      </div>
       <MotionDiv
         initial="hidden"
         animate="visible"

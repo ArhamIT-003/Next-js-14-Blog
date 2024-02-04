@@ -1,22 +1,29 @@
-.blog{
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
+/* Assuming your base font size is 16px */
+.blog {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;/* Add padding instead of margin to prevent compression */
+
+  /* Adjust for navbar height if it's fixed or sticky */
+  /* padding-top: calc(100px + 2rem); */
 }
 
-.title{
-    text-align: center;
-    font-size: 3rem;
+.blogBox {
+  display: flex;
+  margin: auto;
+  gap: 2rem;
+  flex-wrap: wrap;
 }
 
-.blogBox{
-    display: flex;
-    margin: auto;
-    align-items: center;
-    gap: 50px;
-    flex-wrap: wrap;
+@media (max-width: 768px) {
+  .blog {
+    padding-top: 1rem; /* Adjust padding for smaller screens */
+  }
 }
 
-/* @media (max-width: 425px){
-    
-} */
+@media (max-width: 475px) {
+  .blog {
+    gap: 1rem;
+    /* padding-top: 0.5rem; */ /* Adjust padding for even smaller screens */
+  }
+}

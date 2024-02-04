@@ -7,11 +7,10 @@ const PostCard = () => {
     <div className={styles.container}>
       <Image
         src={"/blog.jpeg"}
-        alt=""
+        alt="blog page"
         className={styles.img}
         width={300}
         height={400}
-        
       />
       <h1>BLOG</h1>
       <p>

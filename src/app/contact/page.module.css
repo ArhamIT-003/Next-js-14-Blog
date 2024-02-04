@@ -20,7 +20,7 @@
 
 .input {
   padding: 20px;
-  border: none;
+  border: 1px solid var(--bgSoft);
   border-radius: 8px;
 }
 
@@ -34,4 +34,23 @@
   background-color: var(--bgSoft);
   color: var(--textSoft);
   text-transform: capitalize;
+}
+
+@media (max-width: 475px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+  }
+  .input {
+    padding: 15px;
+    border: 1px solid var(--bgSoft);
+  }
+
+  .formContainer button {
+    padding: 15px;
+  }
+
+  .imgContainer {
+    display: none;
+  }
 }

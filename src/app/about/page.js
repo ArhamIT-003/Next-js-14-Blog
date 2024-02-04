@@ -9,12 +9,12 @@ const About = () => {
         <h1 className={classes.title}>
           We created digital ideas, that are bigger, bolder, brave and better.
         </h1>
-        <pv className={classes.desc}>
+        <p className={classes.desc}>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci ut
           deserunt nisi ex quam nulla magnam? Corporis tenetur ipsa perferendis
           quas? Maiores odit amet, consequatur cupiditate fugit possimus
           adipisci assumenda.
-        </pv>
+        </p>
 
         <div className={classes.boxes}>
           <div className={classes.box}>
@@ -31,6 +31,7 @@ const About = () => {
           </div>
         </div>
       </div>
+
       <div className={classes.imgContainer}>
         <Image
           src={"/about.png"}
