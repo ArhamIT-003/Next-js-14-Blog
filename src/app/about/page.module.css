@@ -41,6 +41,29 @@
   justify-content: space-between;
 }
 
+@media (max-width: 1024px) {
+  .span {
+    font-size: 1rem;
+  }
+
+  .title {
+    font-size: 2.35rem;
+  }
+
+  .desc {
+    font-size: 1rem;
+  }
+
+  .box h1 {
+    text-align: center;
+    font-size: 1.25rem;
+  }
+
+  .box p {
+    font-size: 0.7rem;
+  }
+}
+
 @media (max-width: 768px) {
   .container {
     display: flex;

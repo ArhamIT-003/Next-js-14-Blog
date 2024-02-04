@@ -36,6 +36,15 @@
   text-transform: capitalize;
 }
 
+@media (max-width: 768px) {
+  .input {
+    padding: 10px;
+  }
+  .formContainer button {
+    padding: 10px;
+  }
+}
+
 @media (max-width: 475px) {
   .contact {
     display: flex;
@@ -43,7 +52,6 @@
   }
   .input {
     padding: 15px;
-    border: 1px solid var(--bgSoft);
   }
 
   .formContainer button {
