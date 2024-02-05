@@ -5,8 +5,16 @@
   align-items: center;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 475px) {
   .footer div {
     font-size: 0.75rem;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
   }
 }

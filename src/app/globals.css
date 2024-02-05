@@ -22,9 +22,9 @@ a {
 
 .container {
   max-width: 1440px;
-  height: 100vh;
   margin: auto;
   padding: 0px 50px;
+  gap: 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
